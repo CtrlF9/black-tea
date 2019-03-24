@@ -3,6 +3,10 @@ import "./css/common.css";
 import "./css/login.css";
 
 class Login extends Component{
+    handleClick = () => {
+        console.log('this is:', this);
+      }
+
     render(){
         return(
         <section className="loginForm">
@@ -10,7 +14,7 @@ class Login extends Component{
             <br/>
             <input type="password" placeholder="password" />
             <br/>
-            <input type="button" className="btn-login" value="login" />
+            <input type="button" className="btn-login" value="login" onClick={this.handleClick} />
         </section>
         );
     }
