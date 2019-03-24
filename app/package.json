@@ -1,0 +1,21 @@
+{
+  "name": "black-tea",
+  "version": "1.0.0",
+  "description": "Simple sales",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "black-tea"
+  },
+  "author": "Suresh SP",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "^2.1.8"
+  }
+}

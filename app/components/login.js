@@ -1,13 +1,7 @@
-<html>
-
-<head>
-    <title>black-tea</title>
-    <link rel="stylesheet" href="../css/common.css" />
-    <link rel="stylesheet" href="../css/login.css" />
-</head>
-
-<body>
-       
+import React,{ Component } from "react";
+class Login extends Component{
+    render(){
+        return(
         <section class="loginForm">
             <input type="text" placeholder="user name or e-mail" />
             <br/>
@@ -15,7 +9,6 @@
             <br/>
             <input type="button" class="btn-login" value="login" />
         </section>
-        
-</body>
-
-</html>
+        );
+    }
+}
