@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Login from "./components/logins"
+import Login from "./login"
 
 ReactDOM.render(<Login/>,document.body);
